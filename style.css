@@ -1,0 +1,49 @@
+h1 {
+    color: rgba(0, 0, 255, 0.768);
+    font-family: fantasy;
+    font-size: 150px; 
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    background-color: orange;
+    height: 400px
+}
+
+
+
+#links {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+a {
+    color: rgb(0, 0, 0);
+
+}
+a:hover {
+    color: rgb(235, 70, 33);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+
+  @media (max-width: 768px) {
+    #links {
+        margin-top: 10%;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 900px) {
+   h1 , .header{
+        font-size: 70px;
+    }
+}
+  
+  
